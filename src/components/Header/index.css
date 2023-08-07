@@ -1,0 +1,56 @@
+/* Write your CSS here */
+.navbar {
+  background-color: #ffffff;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.logo {
+  height: 50px;
+  width: 50px;
+}
+.icon {
+  height: 40px;
+  width: 35px;
+}
+.popup {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.closeBtn {
+  align-self: flex-end;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
+  margin: 20px;
+}
+.btn {
+  border: none;
+  background-color: transparent;
+}
+
+.icons-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nav-link-item {
+  list-style: none;
+}
+.nav-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #1e293b;
+  text-decoration: none;
+  margin-bottom: 30px;
+}
